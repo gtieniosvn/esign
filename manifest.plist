@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://raw.githubusercontent.com/gtieniosvn/esign/refs/heads/main/ESign_signed_by_TTJB.ipa</string>
+                </dict>
+                <!-- Thêm icon nếu muốn (tùy chọn) -->
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://raw.githubusercontent.com/gtieniosvn/esign/refs/heads/main/icon.PNG</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.tienesign.new3</string>
+                <key>bundle-version</key>
+                <string>3.3.3</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Tsign</string>
+                <key>subtitle</key>
+                <string>Mô tả ngắn</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
